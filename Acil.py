@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #baru
-import ACIL
-from ACIL.lib.curve.ttypes import *
+import Acil
+from Acil.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
