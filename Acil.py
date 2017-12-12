@@ -1,41 +1,9 @@
 # -*- coding: utf-8 -*-
 #baru
-import Acil
-from Acil.lib.curve.ttypes import *
+import ACIL
+from ACIL.lib.curve.ttypes import *
 from datetime import datetime
-from PyDictionary import PyDictionary
-from bs4 import BeautifulSoup
-from mergedict import MergeDict
-from mergedict import ConfigDict
-from gtts import gTTS
-from pyowm import OWM
-from enum import Enum 
-from django.http import HttpResponse
-from flask import Flask, send_from_directory, redirect as redirect_flask, render_template
-from random import randint
-import time, random, sys, re, os, json
-import subprocess, threading, string,codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,cookielib,urllib3
-import urllib3
-import certifi
-import ssl
-import html5lib,shutil
-import subprocess as cmd
-import csv
-import os
-import errno
-import imp
-import StringIO
-import traceback
-import linecache
-import stat
-import cStringIO
-import urlparse
-import logging
-import argparse
-import mimic
-import xml
-import base64
-import ast
+import time,random,sys,json,codecs,threading,glob,re
 
 cl = Acil.LINE()
 cl.login(qr=True)
