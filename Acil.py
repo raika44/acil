@@ -1067,7 +1067,7 @@ def bot(op):
             if op.param2 in Bots:
                 return
             kk.sendText(op.param1, "Ciee Kakak Gabetah")
-            print "Anggota Keluar
+            print "Anggota Keluar"
         if op.type == 17:
             if op.param3 in wait["blacklist"]:
                 if not op.param2 in Bots and admin: 
