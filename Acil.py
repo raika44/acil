@@ -37,20 +37,20 @@ import xml
 import base64
 import ast
 
-cl = Acil.LINE()
-cl.login(token="EnHZ13lS8hRHKLhetqrc.eoXp0xK1vqkdnL9Q78yCpa.mM3xj1D0c8y4s7PX53fnwFdljjHzp8WrDtu5g2fj1bA=")
+cl = LINETCR.LINE()
+cl.login(qr=True)
 cl.loginResult()
 
-kt = Acil.LINE()
-kt.login(token="En4aaHlzzXHaZrO74Sqb.672la4CfyuJmLCgFJdKosW.NjB/NCDLjL7uHp57WsQj7aTuwYZU3bcC55m8i0ggGk8=")
+kt = LINETCR.LINE()
+kt.login(qr=True)
 kt.loginResult()
 
-ks = Acil.LINE()
-ks.login(token="EnH35WQyaOLcZsHmZns2.Zm4gXz6MY8xdnV92S49yaG.xW+zBNcyqcVAIfVtWovHuFOerXkMXsS01er3E39OmF4=")
+ks = LINETCR.LINE()
+ks.login(qr=True)
 ks.loginResult()
 
-ki = Acil.LINE()
-ki.login(token="En8VVfFSRLQCDrZkYq34.AbZfX80renrInaDEsR0v1a.s62EO6keurG1/tmN3GEuq2IVk4/Rp1xNWTRqRtvZlYc=")
+ki = LINETCR.LINE()
+ki.login(qr=True)
 ki.loginResult()
 
 ki = kt
