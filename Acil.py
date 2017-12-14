@@ -5,19 +5,19 @@ from Acil.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3
 
-cl = LINETCR.LINE()
+cl = Acil.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-kt = LINETCR.LINE()
+kt = Acil.LINE()
 kt.login(qr=True)
 kt.loginResult()
 
-ks = LINETCR.LINE()
+ks = Acil.LINE()
 ks.login(qr=True)
 ks.loginResult()
 
-ki = LINETCR.LINE()
+ki = Acil.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
